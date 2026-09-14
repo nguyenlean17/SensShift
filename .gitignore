@@ -1,0 +1,54 @@
+# CMake & Build outputs
+build/
+build-*/
+bin/
+lib/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# Compiled Object files, executables, libraries
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# Visual Studio & IDE files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vscode/
+.idea/
+
+# Windows temp & local settings
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+Thumbs.db
+Desktop.ini
+
+# App runtime config generated locally
+config.json
+
+# Logs & temp experiments
+*.log
+dist/
+build_qt/
+packages/
+stashed_ui/
+winui_test/
